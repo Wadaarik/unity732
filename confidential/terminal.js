@@ -76,7 +76,7 @@ function validation_index() {
         if (index.value.trim() == "15015"){
             return true;
         }else{
-                window.location.assign("file888888.php");
+                window.location.assign("file888888.html");
                 return false;
         }
     }
@@ -91,7 +91,7 @@ function files_selector() {
         if (choice.value.trim() == "4"){
             return true;
         }else{
-            window.location.assign("file888888.php");
+            window.location.assign("file888888.html");
             return false;
         }
     }
