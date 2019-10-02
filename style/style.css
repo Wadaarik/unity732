@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: ocraext;
+    src: url("font/ocraext.ttf");
+}
+body{
+    padding: 180px 0 0 40px;
+    background: black;
+    cursor : none;
+    overflow: hidden;
+}
+pre{
+    color: #1c7c19;
+    font-size: 32px;
+    font-family: "ocraext";
+    font-weight: lighter;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 20px;
+}
+#tagline{
+    color: #1c7c19;
+    font-weight: 100;
+}
+#pow-txt{
+    color: #1c7c19;
+    display: none;
+    font-weight: 100;
+    color: #e3e3e3 !important;
+}
+#password, #index, #choice, #password_ru{
+    color: #1c7c19;
+    background: black;
+    border: none;
+    font-size: x-large;
+    outline: none;
+}
+#password_ru::placeholder{
+    color: #1c7c19;
+    font-size: x-large;
+}
+#choice::placeholder{
+    color: #1c7c19;
+    font-size: x-large;
+}
+#index::placeholder{
+    color: #1c7c19;
+    font-size: x-large;
+}
+#password::placeholder{
+    color: #1c7c19;
+    font-size: x-large;
+}
+#submit{
+    color: #1c7c19;
+    font-size: x-large;
+    background: black;
+    border: dotted;
+    border-color: #1c7c19;
+    padding: 5px;
+    outline: none;
+}
+ol{
+    margin-left: 55px;
+}
